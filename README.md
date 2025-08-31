@@ -1,4 +1,4 @@
-# 🚀 Python + Raspberry Pi Pico Crash Course (12 Hours / 2 Days)
+# Python + Raspberry Pi Pico Crash Course (12 Hours / 2 Days)
 
 This repository contains materials for a **2-Day / 12-Hour Crash Course** that introduces students to **Python programming** and **MicroPython on Raspberry Pi Pico**.  
 
