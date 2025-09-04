@@ -1,0 +1,21 @@
+aws lambda create-function-url-config \
+  --function-name indiaWeather \
+  --auth-type NONE \
+  --cors '{
+    "AllowOrigins":["*"],
+    "AllowMethods":["GET","POST"],
+    "AllowHeaders":["*"]
+  }'
+
+
+aws lambda add-permission \
+  --function-name indiaWeather \
+  --statement-id allow-public-access \
+  --action lambda:InvokeFunctionUrl \
+  --principal "*" \
+  --function-url-auth-type NONE
+
+
+
+https://3uemzm5mum3l6mjdt7iovq7h3y0nnseo.lambda-url.ap-south-1.on.aws/
+https://hbdbc6t52wp5ylx6pupshtvldi0bjkwa.lambda-url.ap-south-1.on.aws/
