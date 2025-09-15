@@ -3,8 +3,8 @@ import time
 import urequests
 
 # WiFi credentials - replace with your actual WiFi details
-ssid = "my-wifi"
-password = "Password1"
+ssid = "nothing_phone"
+password = "abny6663"
 
 def connect():
     """Connect the Pico to WiFi network"""
@@ -45,3 +45,8 @@ except OSError as e:
     if 'r' in locals():
         r.close()
     print("Connection closed")
+    
+#OK
+#Name as dynamic
+#Internet speed    
+#Error hamdling

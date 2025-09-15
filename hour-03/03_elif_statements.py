@@ -1,4 +1,4 @@
-# Hour 03: Elif Statements
+# Elif Statements - Beginner Example
 # Elif means "else if" - it checks more options
 
 # Example 1: What to wear

@@ -24,3 +24,4 @@ while True:
         print("Sensor error!")
     
     time.sleep(2)
+#OK

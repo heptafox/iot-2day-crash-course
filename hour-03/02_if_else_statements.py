@@ -1,5 +1,4 @@
-# Hour 03: If-Else Statements
-# If-else gives two choices: do this OR do that
+# If-Else Statements -  Example
 
 # Example 1: Hot or cold
 temperature = 15

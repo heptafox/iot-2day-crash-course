@@ -1,5 +1,4 @@
-# Hour 03: Simple Practice
-# Easy examples to try
+# Simple Practice - Beginner Example
 
 # Example 1: Am I hungry?
 hungry = True

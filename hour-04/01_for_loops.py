@@ -1,10 +1,10 @@
-# Hour 04 - For Loops (Simple Version)
+# For Loops - Beginner Examples
 # For loops repeat code a specific number of times
 
 print("FOR LOOPS - Easy Examples")
 print("=" * 30)
 
-# Example 1: Count to 5
+# Example 1: Count to 5 (starts from 0)
 print("\n1. Counting to 5:")
 for i in range(5):
     print(i)

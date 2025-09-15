@@ -1,24 +1,19 @@
-# Hour 2: Comparison Operators
+# Comparison Operators - Example
 
-print("Comparison Operators")
-print("===================")
-
-# Two simple numbers
 x = 5
 y = 3
 
-print(f"x = {x}")
-print(f"y = {y}")
-print()
+print("x =", x)
+print("y =", y)
 
 # Equal to (==)
-print(f"x == y: {x == y}")  # Is 5 equal to 3? False
+print("x == y:", x == y)
 
 # Not equal to (!=)
-print(f"x != y: {x != y}")  # Is 5 not equal to 3? True
+print("x != y:", x != y)
 
 # Greater than (>)
-print(f"x > y: {x > y}")    # Is 5 greater than 3? True
+print("x > y:", x > y)
 
 # Less than (<)
-print(f"x < y: {x < y}")    # Is 5 less than 3? False
+print("x < y:", x < y)
