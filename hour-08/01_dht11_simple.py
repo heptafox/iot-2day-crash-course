@@ -20,8 +20,8 @@ while True:
         print(f"Humidity: {humid}%")
         print("---")
         
-    except:
-        print("Sensor error!")
+    except OSError:
+        print("Sensor error - check wiring!")
     
     time.sleep(2)
 #OK

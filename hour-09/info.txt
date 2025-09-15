@@ -1,5 +1,5 @@
 aws lambda create-function-url-config \
-  --function-name indiaWeather \
+  --function-name helloWeather \
   --auth-type NONE \
   --cors '{
     "AllowOrigins":["*"],
@@ -9,13 +9,13 @@ aws lambda create-function-url-config \
 
 
 aws lambda add-permission \
-  --function-name indiaWeather \
+  --function-name helloWeather \
   --statement-id allow-public-access \
   --action lambda:InvokeFunctionUrl \
   --principal "*" \
   --function-url-auth-type NONE
 
 
-
 https://3uemzm5mum3l6mjdt7iovq7h3y0nnseo.lambda-url.ap-south-1.on.aws/
 https://hbdbc6t52wp5ylx6pupshtvldi0bjkwa.lambda-url.ap-south-1.on.aws/
+https://5eoypyonje3u3qzuvlj4k45l2q0cwwzt.lambda-url.ap-south-1.on.aws/
