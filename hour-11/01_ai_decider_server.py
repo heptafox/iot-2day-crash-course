@@ -10,7 +10,7 @@ SSID = "YOUR_WIFI_NAME"
 PASSWORD = "YOUR_WIFI_PASSWORD"
 
 # 🔹 Step 2: AWS Lambda URL
-LAMBDA_URL = "https://5eoypyonje3u3qzuvlj4k45l2q0cwwzt.lambda-url.ap-south-1.on.aws/"
+LAMBDA_URL = "https://5eoypyonje3u3qzuvlj4k45l2q0cwwzt3.lambda-url.ap-south-1.on.aws/"
 
 # 🔹 Step 3: Setup DHT11 sensor
 sensor = dht.DHT11(Pin(15))   # DHT11 data pin → GPIO15

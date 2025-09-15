@@ -16,6 +16,6 @@ aws lambda add-permission \
   --function-url-auth-type NONE
 
 
-https://3uemzm5mum3l6mjdt7iovq7h3y0nnseo.lambda-url.ap-south-1.on.aws/
-https://hbdbc6t52wp5ylx6pupshtvldi0bjkwa.lambda-url.ap-south-1.on.aws/
-https://5eoypyonje3u3qzuvlj4k45l2q0cwwzt.lambda-url.ap-south-1.on.aws/
+https://3uemzm5mum3l6mjdt7iovq7h3y0nnseo1.lambda-url.ap-south-1.on.aws/
+https://hbdbc6t52wp5ylx6pupshtvldi0bjkwa2.lambda-url.ap-south-1.on.aws/
+https://5eoypyonje3u3qzuvlj4k45l2q0cwwzt3.lambda-url.ap-south-1.on.aws/

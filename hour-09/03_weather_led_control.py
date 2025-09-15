@@ -12,7 +12,7 @@ password = "Password1"
 led = Pin(2, Pin.OUT)
 
 # Lambda base URL (no query params here)
-BASE_URL = "https://hbdbc6t52wp5ylx6pupshtvldi0bjkwa.lambda-url.ap-south-1.on.aws/"
+BASE_URL = "https://hbdbc6t52wp5ylx6pupshtvldi0bjkwa2.lambda-url.ap-south-1.on.aws/"
 
 # City to request
 CITY = "Chennai"
@@ -140,4 +140,4 @@ except Exception as e:
     print("Program error:", e)
     led.off()
 
-#https://hbdbc6t52wp5ylx6pupshtvldi0bjkwa.lambda-url.ap-south-1.on.aws/?city=Delhi
+#https://hbdbc6t52wp5ylx6pupshtvldi0bjkwa2.lambda-url.ap-south-1.on.aws/?city=Delhi

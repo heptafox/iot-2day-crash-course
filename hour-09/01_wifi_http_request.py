@@ -3,8 +3,8 @@ import time
 import urequests
 
 # WiFi credentials - replace with your actual WiFi details
-ssid = "nothing_phone"
-password = "abny6663"
+ssid = "my_wifi"
+password = "Password1"
 
 def connect():
     """Connect the Pico to WiFi network"""
@@ -23,7 +23,7 @@ try:
     connect()
     
     # Lambda URL
-    site = "https://3uemzm5mum3l6mjdt7iovq7h3y0nnseo.lambda-url.ap-south-1.on.aws/"
+    site = "https://3uemzm5mum3l6mjdt7iovq7h3y0nnseo1.lambda-url.ap-south-1.on.aws/"
     
     # Add name as query parameter
     my_name = "Boobathi"
@@ -44,4 +44,4 @@ except OSError as e:
     print("Connection closed")
 
 
-#https://3uemzm5mum3l6mjdt7iovq7h3y0nnseo.lambda-url.ap-south-1.on.aws/?name=Boobathi
+#https://3uemzm5mum3l6mjdt7iovq7h3y0nnseo1.lambda-url.ap-south-1.on.aws/?name=Boobathi
