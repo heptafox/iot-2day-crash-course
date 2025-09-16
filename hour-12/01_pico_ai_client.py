@@ -25,7 +25,7 @@ import dht
 SSID = "YOUR_WIFI_SSID"
 PASSWORD = "YOUR_WIFI_PASSWORD"
 
-LAMBDA_URL = "https://your-lambda-function-url-id.lambda-url.region.on.aws/"
+LAMBDA_URL = "https://6yku64rvngm7hrigkamulzerle0sulxu4.lambda-url.ap-south-1.on.aws/"
 # Example: "https://abcd1234.lambda-url.us-east-1.on.aws/"
 
 DHT_PIN = 15        # DHT11 data pin
